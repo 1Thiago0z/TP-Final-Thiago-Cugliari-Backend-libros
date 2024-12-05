@@ -3,12 +3,20 @@ import { connectDB } from "./src/config/mongo.js";
 import { libroRouter } from "./src/routes/libroRouter.js";
 import { userRouter } from "./src/routes/userRouter.js";
 
+
+
 const app = express();
+
+
 
 process.loadEnvFile();
 const PORT = process.env.PORT || 3000;
 
+
+
 app.use(express.json());
+
+
 
 connectDB();
 
