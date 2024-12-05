@@ -1,0 +1,22 @@
+{
+  "name": "tp-utn-final-backend-libros",
+  "version": "1.0.0",
+  "description": "Esta API permite gestionar libros, incluyendo la creación, consulta, actualización y eliminación de los mismos. Para acceder a sus funcionalidades, los usuarios deben registrarse y autenticarse. La API utiliza **MongoDB** para la gestión de datos y **Express-Validator** para validar las entradas de datos.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Thiago Cugliari",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "2.4.3",
+    "express": "4.21.1",
+    "helmet": "8.0.0",
+    "joi": "17.13.3",
+    "jsonwebtoken": "9.0.2",
+    "mongoose": "8.8.3"
+  }
+}
